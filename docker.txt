@@ -6,6 +6,7 @@ CMD ["node", "help.js"]
 i have made a help.js file jisme 3 bar hello world
 docker build -t docker .
 docker is folder ka nam
+install container tool in vs code 
 
 FROM node:18
 COPY . .
