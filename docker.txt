@@ -1,0 +1,13 @@
+email collage wali , password B......@2.25
+FROM node:18
+COPY . .
+CMD ["node", "help.js"]
+
+i have made a help.js file jisme 3 bar hello world
+docker build -t docker .
+docker is folder ka nam
+
+FROM node:18
+COPY . .
+RUN npm install
+CMD ["node","server.js"]
